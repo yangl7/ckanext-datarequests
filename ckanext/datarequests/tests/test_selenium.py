@@ -36,7 +36,7 @@ import unittest
 def _generate_random_string(length):
     return ''.join(random.choice(string.ascii_lowercase) for _ in xrange(length))
 
-
+@unittest.skip("showing class skipping")
 class TestSelenium(unittest.TestCase):
 
     @classmethod
