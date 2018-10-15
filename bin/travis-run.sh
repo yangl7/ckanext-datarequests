@@ -1,5 +1,5 @@
 #!/bin/sh -e
-pyenv versions
+~/.linuxbrew/bin/pyenv versions
 whoami
 sudo su -s /bin/bash jenkins 
 ~/.linuxbrew/bin/pyenv shell ckan-2.8.1
