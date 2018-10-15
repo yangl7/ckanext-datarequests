@@ -1,6 +1,4 @@
 #!/bin/sh -e
-~/.linuxbrew/bin/pyenv versions
-whoami
-sudo su -s /bin/bash jenkins 
-~/.linuxbrew/bin/pyenv shell ckan-2.8.1
+
+export PATH=/var/lib/jenkins/.pyenv/shims:/var/lib/jenkins/.linuxbrew/bin:/usr/bin:/bin:/usr/sbin:/sbin
 python setup.py nosetests
