@@ -11,7 +11,7 @@ echo "Installing the packages that CKAN requires..."
 
 echo "Installing CKAN and its Python dependencies..."
 #git clone https://github.com/ckan/ckan
-cd ~/Projects/ckan/2.8.1/src
+cd ~/dmt/ckan/2.8.1/src
 #git checkout ckan-$CKANVERSION
 echo "-----------------------------------------------------------------------"
 ~/.pyenv/shims/pip install -r requirement-setuptools.txt
